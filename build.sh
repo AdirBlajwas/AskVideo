@@ -2,10 +2,9 @@
 # exit on error
 set -o errexit
 
-poetry install
-poetry --version
-#poetry self update
+pip install --upgrade poetry
 poetry lock
+#poetry install
 
 
 python manage.py collectstatic --no-input
