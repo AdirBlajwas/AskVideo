@@ -5,7 +5,7 @@ set -o errexit
 poetry install
 poetry --version
 #poetry self update
-#poetry lock
+poetry lock
 
 
 python manage.py collectstatic --no-input
