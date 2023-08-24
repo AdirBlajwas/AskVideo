@@ -4,7 +4,7 @@ set -o errexit
 
 pip install --upgrade poetry
 poetry lock
-#poetry install
+poetry install
 
 
 python manage.py collectstatic --no-input
