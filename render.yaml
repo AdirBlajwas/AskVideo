@@ -1,14 +1,14 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: mysitevideo
+    databaseName: mysitevideo
+    user: mysitevideo
 
 services:
   - type: web
     name: mysite
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn mysite.wsgi:application"
+    startCommand: "gunicorn mysitevideo.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
