@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Styling for the main content section */
+.main-content {
+    margin: 2em auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Styling for the form */
+form {
+    margin-top: 1em;
+}
+
+/* Styling for form elements */
+label, input {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+/* Styling for the submit button */
+.styled-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: #555;
+}
+
+/* Styling for the background image */
+body {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
